@@ -32,7 +32,7 @@
 	$.material.init();
 	$.scrollUp({
 	scrollImg: true,
-	scrollText: "回顶部"
+	scrollText: "Scroll up"
 	});
 	$('#scrollUp').addClass('btn btn-info btn-fab btn-raised mdi-navigation-expand-less');
 	</script>
