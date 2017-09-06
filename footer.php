@@ -19,7 +19,7 @@
 			</div>
 		</div>
 	</footer>
-    <script src="<?php $this->options->themeUrl('js/bucket.js'); ?></script>
+    <script src="<?php $this->options->themeUrl('js/bucket.js'); ?>"></script>
     <?php /*
 	<script src="<?php $this->options->themeUrl('js/jquery-2.1.4.min.js'); ?>"></script>
 	<script src="<?php $this->options->themeUrl('js/bootstrap.min.js'); ?>"></script>
