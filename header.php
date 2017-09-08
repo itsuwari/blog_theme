@@ -9,7 +9,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:image" content="https://back.re/avatar.png" />
   <meta content="Hampus blog" property="og:site_name" />
-  <meta content="<?php $this->options->title(); ?>" property="og:title" />
+  <meta content="<?php $this->archiveTitle(array(
+            'category'  =>  _t('Category %s'),
+            'search'    =>  _t('包含关键字 %s 的文章'),
+            'tag'       =>  _t('Tag %s'),
+            'author'    =>  _t('Author %s')
+         ), '', ' - '); ?><?php $this->options->title(); ?>" property="og:title" />
   <meta content="object" property="og:type" />
   <meta content="Wellcome to my blog" property="og:description" />
   <title><?php $this->archiveTitle(array(
