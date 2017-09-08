@@ -15,8 +15,7 @@
             'tag'       =>  _t('Tag %s'),
             'author'    =>  _t('Author %s')
          ), '', ' - '); ?><?php $this->options->title(); ?>" property="og:title" />
-  <meta content="object" property="og:type" />
-  <meta content="Wellcome to my blog" property="og:description" />
+  <meta content="article" property="og:type" />
   <title><?php $this->archiveTitle(array(
             'category'  =>  _t('Category %s'),
             'search'    =>  _t('包含关键字 %s 的文章'),
